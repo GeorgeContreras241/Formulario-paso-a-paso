@@ -1,0 +1,176 @@
+
+/*Contenedor formulario*/
+:root {
+  --color: #ffffff;
+}
+.process{
+  height: 1px;
+  width: 95%;
+  margin: auto;
+  position: relative;
+  top: 1px;
+  background-color: #343434;
+  
+}
+.loading{
+  width: 0%;
+  height: 100%;
+  background-color: red;
+  transition: width 0.3s ease; 
+}
+.loading.one{
+  width: 33.9%;
+  height: 100%;
+}
+.loading.two{
+  width: 66.6%;
+}
+.loading.three{
+    width: 100%;
+    background-color: greenyellow;
+}
+h1{
+  width: fit-content;
+  font-size: 2.5rem;
+  margin: auto;
+  margin-top: 15px;
+  border-bottom: 1px solid var(--color);
+}
+a{
+  text-decoration: none;
+  color: rgb(113, 113, 243);
+  border-bottom: 1px solid rgb(113, 113, 243);
+}
+.description{
+  max-width: 800px;
+  margin:auto;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.form__container{
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.formity{
+  text-align: center;
+  margin-bottom: 140px;
+}
+.formity h2{
+  margin-bottom: 20px;
+}
+.formCode{
+  margin-top: 300px;
+}
+.formCode h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form__formity{
+  width: 500px;
+  height: 300px;
+  
+}
+.form__formity p{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+  background-color: #1b1b1b;
+  height: 320px;
+  border-radius: 15px;
+  border: 1px solid #343434;
+  transition: border .5s;
+}
+/* quede haciendo los estilos de los inputs imitando el estilo de formity */
+.form:hover{
+  border: 1px solid #474747;
+}
+.form-title{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 1.7rem;
+}
+
+.previus{
+  margin-right: 400px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}
+.previus:hover{
+  background-color: rgba(44, 44, 44, 0.842);
+}
+.next{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: blue;
+  border: none;
+  padding: 17px;
+  border-radius: 15px;
+  width: 60%;
+}
+.next:hover{
+  background-color: rgba(0, 0, 255, 0.842);
+  color: #dfdfdf;
+}
+.form-group {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.form-group input{
+  width: 300px;
+  padding: .8rem  2rem;
+  border: 1px solid #343434;
+  border-radius: 15px;
+}
+.error{
+  position: absolute;
+  top: 390px;
+  color: rgba(255, 0, 0, 0.781);
+  font-size: .7rem;
+}
+.error.two{
+  top: 473px;
+}
+.button-submit{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: blue;
+  border: none;
+  padding: 17px;
+  border-radius: 15px;
+  width: 60%;
+  cursor: pointer;
+}
+.button-submit:hover{
+  background-color: rgba(0, 0, 255, 0.842);
+  color: #dfdfdf;
+}
+/*Contenedor formulario*/
